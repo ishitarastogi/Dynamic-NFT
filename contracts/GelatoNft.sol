@@ -39,7 +39,7 @@ contract GelatoNft is ERC721URIStorage, Ownable, Pausable {
     function unpause() external onlyOwner {
         _unpause();
     }
-
+// SECRET_PHASE: FROZE
     function mint(bool _isNight) external whenNotPaused {
         require(!hasMinted[msg.sender], "Already minted!");
         tokenIds.increment();
