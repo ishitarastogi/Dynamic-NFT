@@ -37,6 +37,7 @@ function generateNftProperties(isNight: boolean) {
     ],
   };
 }
+// SECRET_PHASE: FROZE
 
 Web3Function.onRun(async (context: Web3FunctionEventContext) => {
   const { userArgs, multiChainProvider, secrets, storage, log } = context;
