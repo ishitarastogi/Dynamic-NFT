@@ -31,9 +31,9 @@ function generateNftProperties(isNight: boolean) {
     description,
     attributes: [
       { trait_type: "Time", value: timeSelected },
-      { trait_type: "Place", value: "Barcelona" },
-      { trait_type: "Eating", value: "Gelato" },
-      { trait_type: "Powered", value: "Web 3 Functions" },
+       { trait_type: "Time", value: timeSelected },
+      { trait_type: "Place", value: "Jaipur" },
+      { trait_type: "Action", value: "Dance" },
     ],
   };
 }
